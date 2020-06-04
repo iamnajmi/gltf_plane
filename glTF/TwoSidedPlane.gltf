@@ -83,7 +83,7 @@
       }
    ],
    "asset" : {
-      "generator" : "VKTS glTF 2.0 exporter",
+      "generator" : "Visual Sutdio",
       "version" : "2.0"
    },
    "bufferViews" : [
