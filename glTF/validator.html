@@ -1,0 +1,9 @@
+<javascript>
+const validator = require('gltf-validator');
+ 
+fetch('TwoSidedPlane.gltf')
+    .then((response) => response.arrayBuffer())
+    .then((asset) => validator.validateBytes(new Uint8Array(asset)))
+    .then((report) => console.info('Validation succeeded: ', report))
+    .catch((error) => console.error('Validation failed: ', error));
+	</javascript
